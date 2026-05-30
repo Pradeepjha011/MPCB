@@ -1,0 +1,461 @@
+/*
+ Document   : custom.js
+ Created on : Jul 17, 2015, 03:56:08 AM
+ Author     : Mohan Yadav
+ Description:
+ Purpose of this File is as Follows.
+ It will add necessary validations to all the fields
+ based on the data attribute
+ */
+
+jQuery.validator.addMethod("trim", function(value, element) {
+    value.trim();
+    return true ;
+}, "asdasd");
+
+
+$.validator.addMethod(
+    "date",
+    function ( value, element ) {
+        if(value.match(/^[0-9]{4}-(0[1-9]|1[0-2])-(0[1-9]|[1-2][0-9]|3[0-1])$/)){
+            return true;
+        }else{
+            return false;
+        }
+    },
+    "Please enter a date in the format dd/mm/yyyy"
+);
+
+var form = $('.form');
+var validations = {};
+var errorMsg = $('#errorMsg');
+var errorMsg2 = $('#errorMsg2');
+
+
+function formatFieldName(str){
+    while(str.indexOf('.') !== -1){
+        var replacewith = (str.indexOf('[') != -1) ? '][' : '[';
+        str = str.replace('.',replacewith);
+    }
+    return str+']';
+}
+
+form.find('input, textarea, select').each(function () {
+    var input = $(this);
+    var name = input.attr('name');
+    
+//    if($(this).hasClass('skip')) {
+//        return;
+//    }
+    
+    validations[name] = {};
+    /*$.each($(input).data(), function (key, value) {
+        validations[name][key] = value;
+    });*/
+    $.each($(input).data(), function (key, value) {
+        if(name == "Consent_industry[details_of_proposed_arrangement]") {
+            if(key == "required") {
+                validations[name][key] = {};
+                validations[name][key]['depends'] = function() {
+                    return $('input[name = "Consent_industry[applicant_utilize_system]:checked"]').val() == 1? true: false;
+                };
+            }
+        }
+        if(name == "Consent_industry_waste_water_aspects[before_intermittently_or_after_treatment]") {
+            if(key == "required") {
+                validations[name][key] = {};
+                validations[name][key]['depends'] = function() {
+                    return $('input[name = "Consent_industry_waste_water_aspects[sewage_and_trade_effluents_mixed]:checked"]').val() == 1? true: false;
+                };
+            }
+        }
+        if(name == "Applicant[ECRefNo]") {
+            if(key == "required") {
+                validations[name][key] = {};
+                validations[name][key]['depends'] = function() {
+                    return $('#ii-ec_obtained').is(':checked')? true: false;
+                };
+            }
+        }
+        else if(name == "Applicant[iin_no]") {
+            if(key == "required") {
+                validations[name][key] = {};
+                validations[name][key]['depends'] = function() {
+                    return $("input[type='radio'][name='Applicant[Establish_type]']:checked").val() != "1"? true: false;
+                };
+            }
+        }
+        else if(name == "Applicant_by_product_Qty[0][UOM]") {
+            if(key == "required") {
+                validations[name][key] = {};
+                validations[name][key]['depends'] = function() {
+                    return $('input[name="Applicant_by_product_Qty[0][Name]"]').val() !=""? true: false;
+                };
+            }
+        }
+        else if(name == "Applicant_by_product_Qty[0][Qty]") {
+            if(key == "required") {
+                validations[name][key] = {};
+                validations[name][key]['depends'] = function() {
+                    return $('input[name="Applicant_by_product_Qty[0][Name]"]').val() !=""? true: false;
+                };
+            }
+        }
+        else if(name == "Applicant_by_product_Qty[0][Remarks]") {
+            if(key == "required") {
+                validations[name][key] = {};
+                validations[name][key]['depends'] = function() {
+                    return $('input[name="Applicant_by_product_Qty[0][Name]"]').val() !=""? true: false;
+                };
+            }
+        }
+        else if(name == "Applicant_Water_Pollution_qty[cept_name]") {
+            if(key == "required") {
+                validations[name][key] = {};
+                validations[name][key]['depends'] = function() {
+                    return $("input[type='radio'][name='Applicant_Water_Pollution_qty[cept_member]']:checked").val() == 1? true: false;
+                };
+            }
+        }
+        else if(name == "Applicant_Water_Pollution_qty[cept_capacity]") {
+            if(key == "required") {
+                validations[name][key] = {};
+                validations[name][key]['depends'] = function() {
+                    return $("input[type='radio'][name='Applicant_Water_Pollution_qty[cept_member]']:checked").val() == 1? true: false;
+                };
+            }
+        }
+        else if(name == "Applicant_Water_Pollution_qty[alloted_capacity]") {
+            if(key == "required") {
+                validations[name][key] = {};
+                validations[name][key]['depends'] = function() {
+                    return $("input[type='radio'][name='Applicant_Water_Pollution_qty[cept_member]']:checked").val() == 1? true: false;
+                };
+            }
+        }
+        else if(name == "Applicant_Water_Pollution_qty[treated_effluent_sump_capacity]") {
+            if(key == "required") {
+                validations[name][key] = {};
+                validations[name][key]['depends'] = function() {
+                    return $("input[type='radio'][name='Applicant_Water_Pollution_qty[cept_member]']:checked").val() == 1? true: false;
+                };
+            }
+        }
+        else if(name == "hwg_other[CHWTSDF_name]") {
+            if(key == "required") {
+                validations[name][key] = {};
+                validations[name][key]['depends'] = function() {
+                    return $("input[type='radio'][name='hwg_other[member_of_CHWTSDF]']:checked").val() == 1? true: false;
+                };
+            }
+        }
+        else if(name == "laa[legal_record_of_company]") {
+            if(key == "required") {
+                validations[name][key] = {};
+                validations[name][key]['depends'] = function() {
+                    return $("input[type='radio'][name='laa[legal_action_taken]']:checked").val() == 1? true: false;
+                };
+            }
+        }
+        else if(name == "laa[legal_action_details]") {
+            if(key == "required") {
+                validations[name][key] = {};
+                validations[name][key]['depends'] = function() {
+                    return $("input[type='radio'][name='laa[legal_action_taken]']:checked").val() == 1? true: false;
+                };
+            }
+        }
+        else if(name == "laa[remarks]") {
+            if(key == "required") {
+                validations[name][key] = {};
+                validations[name][key]['depends'] = function() {
+                    return $("input[type='radio'][name='laa[legal_action_taken]']:checked").val() == 1? true: false;
+                };
+            }
+        }
+        else if(name == "Consent_industry[sensitive_area_info]") {
+            if(key == "required") {
+                validations[name][key] = {};
+                validations[name][key]['depends'] = function() {
+                    return $("input[type='radio'][name='Consent_industry[is_sensitive_area]']:checked").val() == 1? true: false;
+                };
+            }
+        }
+        else if(name == "Consent_industry_waste_water_aspects[before_intermittently_or_after_treatment]") {
+            if(key == "required") {
+                validations[name][key] = {};
+                validations[name][key]['depends'] = function() {
+                    return $("input[type='radio'][name='Consent_industry_waste_water_aspects[sewage_and_trade_effluents_mixed]']:checked").val() == 1? true: false;
+                };
+            }
+        }
+        else if(name == "Consent_industry[registration_number]") {
+            if(key == "required") {
+                validations[name][key] = {};
+                validations[name][key]['depends'] = function() {
+                    return $("input[type='radio'][name='Consent_industry[is_registred_industry_unit]']:checked").val() == 1? true: false;
+                };
+            }
+        }
+        else if(name == "Consent_industry[registration_date]") {
+            if(key == "required") {
+                validations[name][key] = {};
+                validations[name][key]['depends'] = function() {
+                    return $("input[type='radio'][name='Consent_industry[is_registred_industry_unit]']:checked").val() == 1? true: false;
+                };
+            }
+        }
+        else if(name == "Consent_industry[residential_colony_population_staying]" || name == "Consent_industry[water_consumption]"
+                || name == "Consent_industry[sewage_generation]" || name == "Consent_industry[addr_residential_colony]" || name == "Consent_industry[distance_from_plant_site]") {
+            if(key == "required") {
+                validations[name][key] = {};
+                validations[name][key]['depends'] = function() {
+                    return $("input[type='radio'][name='Consent_industry[is_residential_colony_exist]']:checked").val() == 1? true: false;
+                };
+            }
+        }
+        else {
+            if(key == 'dependsrequired') {
+                validations[name]['required'] = {};
+                validations[name]['required']['depends'] = function() {
+                    return $('[name="'+formatFieldName(value)+'"]').val() !="";
+                };
+            } else {
+                validations[name][key] = {};
+                validations[name][key] = value;
+            }
+        }
+        
+    });
+});
+
+//console.log(validations);
+form.validate({
+    focusInvalid: true, // do not focus the last invalid input
+    ignore: "",
+    rules: validations,
+    errorPlacement: function (error, element) { // render error placement for each input type
+        //return true;
+    },
+
+    invalidHandler: function (event, validator) { //display error alert on form submit
+        $('#errorMsg').show();
+        $('#errorMsg2').show();
+        errorMsg.show();
+        goToByScroll('errorMsg');
+    },
+
+    highlight: function (element) { // hightlight error inputs
+        $(element).removeClass('valid').addClass('error'); // set error class to the control group
+    },
+
+    unhighlight: function (element) { // revert the change dony by hightlight
+        $(element).removeClass('error'); // set error class to the control group
+    },
+
+    success: function (element) {
+        $(element).removeClass('error').addClass('valid');
+    },
+
+    submitHandler: function (form) {
+//        form.find('input, textarea, select').removeClass("error");
+        $('#errorMsg').hide();
+        $('#errorMsg2').hide();
+        errorMsg.hide();
+        $(".se-pre-con").show();
+        form.submit();
+    }
+
+});
+
+$(".se-pre-con").hide();
+
+
+function goToByScroll(id){
+    id = id.replace("link", "");
+    // Scroll
+    $('html,body').animate({scrollTop: $("#"+id).offset().top - 35}, 'slow');
+}
+
+errorMsg.find('.close').on('click',function(){
+    errorMsg.hide();
+});
+errorMsg2.find('.close').on('click',function(){
+    errorMsg2.hide();
+});
+
+function product_add_more_select2(index)
+{
+    $(".product_select").each(function() {
+
+        $(this).parent('.halfwidth').find('.select2-container').remove();
+        $(this).select2();
+        $(this).parent('.halfwidth').find('.select2-container').css('width','111px');
+        
+    });
+}
+
+
+$('.add-more').click(function(){
+    var btn = $(this).closest('li');
+    var html = btn.prev().html();
+    var index = parseInt(html.match(/\[[0-9]+\]/g)[0].match(/\d+/)) + 1;   // Get the previous index
+    var srNo = index + 1;
+    html = html.replace(/S[0-9]/,'S' + srNo);
+    html = html.replace(/<label>[0-9]<\/label>/,'<label>' + srNo + '</label>' );
+    btn.before('<li>'+html.replace(/\[[0-9]+\]/g,'['+ index +']')+'</li>');
+    btn.prev().find('select, input').first().focus();
+    product_add_more_select2();
+    return false;
+});
+
+product_add_more_select2();
+
+$("#submitBtn").click(function(){
+    if($("#terms:checked").val() == 1) {
+        if(confirm("You are about to submit, please recheck the fields?")){
+            return true;
+        }
+    }
+    else {
+        alert('Please accept the terms & conditions');
+    }
+    return false;
+});
+$('#document_form').validate({
+     errorClass: "error",
+     validClass: "",
+     rules: {
+        name: {
+            required:true,
+            maxlength: 100,
+            maxlength: 100,   
+        },
+        doc_type: {
+            required:true,
+        },
+        userfile: {
+            required: true,
+        }
+     },
+      errorPlacement: function(error,element) {
+      return true;
+  }
+});
+
+function check_file()
+{
+    $("#appeal-form").validate();
+    $('input[type="file"]').each(function() {
+    $(this).rules("add", "required");
+    });
+}
+function valid_file()
+{
+    $("#appeal-form").validate();
+    $('.required_file').each(function() {
+    $(this).rules("add", "required");
+    });
+}
+
+$(document).on('change','.schedule_class',function(){
+
+   var opt = $(this).find('option:selected').text(); //$(".schedule_class option:selected").text();
+   opt = opt.split(" ");
+   if($(this).val() !== "")
+   {
+        var val = 'NA';
+        opt[0] == "" ? val = 'NA': val = opt[0];
+        
+        $(this).closest('li')
+                .parent('ul')
+                .find('.schedule_select').val(val).prop("readonly",true);
+   }
+   else
+   {
+        $(this).closest('li')
+                .parent('ul')
+                .find('.schedule_select').val('').prop("readonly",true);
+   }
+
+});
+
+$(document).on('change','.schedule_1',function(){
+
+   var opt = $(this).find('option:selected').text();
+   opt = opt.split(" ");
+   if($(this).val() !== "")
+   {
+        var val = 'NA';
+        opt[0] == "" ? val = 'NA': val = opt[0];
+        
+        $(this).closest('li')
+                .parent('ul')
+                .find('.schedule_1_cat_no').val(val).prop("readonly",true);
+   }
+   else
+   {
+        $(this).closest('li')
+                .parent('ul')
+                .find('.schedule_1_cat_no').val('').prop("readonly",true);
+   }
+
+});
+
+$(".number_only").keypress(function (e) {
+     if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57) && e.which != 46) {
+               return false;
+    }
+   });
+
+$('input[type="file"]').change(function(){
+    var ext = $(this).val().split('.').pop().toLowerCase();
+        if($.inArray(ext, ['pdf','jpg','jpeg','png','xlsx']) == -1) {
+        swal("Error", "Invalid Extension! Please note that PDF/JPG/JPEG/PNG files are only accepted.Please select any one of the file types and retry.", "error")
+        $(this).val('');
+    }
+});
+
+$('.pdf_only').change(function(){
+    var ext = $(this).val().split('.').pop().toLowerCase();
+        if($.inArray(ext, ['pdf']) == -1) {
+        swal("Error", "Invalid Extension! Please note that PDF files are only accepted.Please select only pdf file type and retry.", "error")
+        $(this).val('');
+    }
+});
+
+$('.2mb_pdf_only').change(function(){
+    var ext = $(this).val().split('.').pop().toLowerCase();
+        if($.inArray(ext, ['pdf']) == -1 || this.files[0].size > 2097152) {
+        swal("Error", "Please select only pdf file with maximum 2MB of file size and retry.", "error")
+        $(this).val('');
+    }
+});
+
+$('.image_only').change(function(){
+    var ext = $(this).val().split('.').pop().toLowerCase();
+        if($.inArray(ext, ['jpeg', 'jpg', 'png', 'JPEG', 'JPG', 'PNG']) == -1) {
+        swal("Error", "Invalid Extension! Please note that image files are only accepted.Please select only jpg, jpeg, png file type and retry.", "error")
+        $(this).val('');
+    }
+});
+
+$('.greater_zero').change(function(){
+    if($(this).val() < 1) {
+        var message = $(this).data('nonzero');
+
+        if (!message &&  message==null) {
+            message = "Field value must be greater than zero.";
+        }
+
+        swal("Error", message, "error")
+        $(this).val('');
+    }
+});
+
+
+
+
+
+
+

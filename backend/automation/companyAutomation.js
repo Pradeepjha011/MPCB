@@ -361,7 +361,7 @@ const autoReadAndSubmitOtp = async (page) => {
     throw new Error('OTP input field not found on page');
   }
 
-  const otp = await waitForOTP();
+  const otp = await waitForOTP({ sinceTimestamp: Date.now() });
   await otpInput.click({ force: true }).catch(() => {});
   await otpInput.fill('');
   await otpInput.fill(otp);
@@ -512,7 +512,7 @@ const continueWithOtp = async (companyId, manualOtp = '', companyName = 'company
     throw new Error('OTP input field not found on page');
   }
 
-  const otp = String(manualOtp || '').trim() || (await waitForOTP());
+  const otp = String(manualOtp || '').trim() || (await waitForOTP({ sinceTimestamp: Date.now() }));
 
   await otpInput.click({ force: true }).catch(() => {});
   await otpInput.fill('');

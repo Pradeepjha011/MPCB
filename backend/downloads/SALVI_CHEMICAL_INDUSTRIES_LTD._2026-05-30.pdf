@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/css/combined.css">
+  <script src="/js/combined.js"></script>
+  <title>Document - a1c7ac7b3bcc3c260de89820f11d34c5fac8c05c4dcee8e04aaafbc82dcfcdbe</title>
+  <meta property="og:title" content="a1c7ac7b3bcc3c260de89820f11d34c5fac8c05c4dcee8e04aaafbc82dcfcdbe">
+  <meta property="og:image" content="https://media.print2block.in/preview/cover/QmVn5ftPWC9RPba2qQtVnx4NftxQ4aYRz183DnvqL89LYh">
+  <meta property="og:description" content="This Blockchain secured document is issued by Maharashtra Pollution Control Board to SALVI CHEMICAL INDUSTRIES LTD.. Verify the document to authenticate its validity">
+  <meta name="description" content="This Blockchain secured document is issued by Maharashtra Pollution Control Board to SALVI CHEMICAL INDUSTRIES LTD.. Verify the document to authenticate its validity">
+  <meta property="og:url" content="https://blockchain.ecmpcb.in/docs/a1c7ac7b3bcc3c260de89820f11d34c5fac8c05c4dcee8e04aaafbc82dcfcdbe">
+</head>
+<body>
+  <div id="main-content">
+    <div class="d-none d-xl-block">
+      <header>
+        <nav class="navbar py-0">
+          <p class="navbar-brand mb-0" href="https://docchain.io/" target="_blank">
+            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNi4xNTQiIGhlaWdodD0iMjcuMzY5IiB2aWV3Qm94PSIwIDAgMTYuMTU0IDI3LjM2OSI+CiAgICA8ZGVmcz4KICAgICAgICA8c3R5bGU+CiAgICAgICAgICAgIC5jbHMtMXtmaWxsOiMwMDgzZTN9CiAgICAgICAgPC9zdHlsZT4KICAgIDwvZGVmcz4KICAgIDxwYXRoIGlkPSJMb2dvIiBkPSJNMTI2NjAgNjEyNi4wMjF2LTguNTdsNy45NzktNC4zNjUgOC4xNzYgNC4zNjV2OC41N2wtOC4xNzYgNC4zNDl6bTIuMjk0LTEyLjAyMmExIDEgMCAxIDEgMSAxIDEgMSAwIDAgMS0xLjAwMS0uOTk5em05LTEuNWEuNS41IDAgMSAxIC41LjUuNS41IDAgMCAxLS41MDItLjQ5OXptLTUtNGExLjUgMS41IDAgMSAxIDEuNSAxLjUgMS41IDEuNSAwIDAgMS0xLjQ5OS0xLjQ5OXptMy00YS41LjUgMCAxIDEgLjUuNS41LjUgMCAwIDEtLjQ5OS0uNDk5em0tNC0uNWExIDEgMCAxIDEgMSAxIDEgMSAwIDAgMS0xLjAwMS0uOTk5eiIgY2xhc3M9ImNscy0xIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTI2NjAgLTYxMDMuMDAxKSIvPgo8L3N2Zz4K" width="16" class="d-inline-block align-top mx-2" alt="">This Document is Issued on <strong>Maharashtra Pollution Control Board</strong> Blockchain, powered by: <strong><a href="https://docchain.io/" target="_blank">DocChain.io</a></strong>
+          </p>
+          <div id="google_translate_element_1"></div>
+        </nav>
+      </header>
+      <section class="document-section">
+        <div class="container-fluid">
+          <div class="warning">
+          </div>
+          <div class="row">
+            <div class="col-lg-7">
+              <div class="content-text-wrapper">
+                <div id="documentPages" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active main-img-shade">
+                      <img id="docimage" src="https://media.print2block.in/preview/cover/QmVn5ftPWC9RPba2qQtVnx4NftxQ4aYRz183DnvqL89LYh" class="border d-block w-100" alt="..." style="margin: auto;">
+                    </div>
+                  </div>
+                </div>
+                <div class="footer-btn-section pt-3">
+                  <div class="row my-3">
+                    <div class="col-sm-1">
+                      <div class="carousel-main-control">
+                      <a class="carousel-control-prev" href="#documentPages"  id="pdf-prev" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      </div>
+                    </div>
+                    <div class="col-sm-3 text-center" style="margin-top: 8px;">
+                      <div class="carousel-main-control">
+                        Page <span id="pdf-current-page">1</span> of <span id="pdf-total-pages">1</span>
+                      </div>
+                    </div>
+                    <div class="col-sm-1">
+                      <div class="carousel-main-control">
+                        <a class="carousel-control-next" href="#documentPages" id="pdf-next" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mb-1">
+                    <div class="col-sm-12">
+                      <div class="d-flex align-items-center ">
+                        <div class="ml-auto">
+                          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNSIgaGVpZ2h0PSIzNSIgdmlld0JveD0iMCAwIDM1IDM1Ij4KICAgIDxkZWZzPgogICAgICAgIDxzdHlsZT4KICAgICAgICAgICAgLmNscy0xe2ZpbGw6IzAwODNlM30uY2xzLTIsLmNscy00e2ZpbGw6bm9uZX0uY2xzLTJ7c3Ryb2tlOiMwMDgzZTN9LmNscy0ze3N0cm9rZTpub25lfQogICAgICAgIDwvc3R5bGU+CiAgICA8L2RlZnM+CiAgICA8ZyBpZD0iU2hhcmUiPgogICAgICAgIDxnIGlkPSJzaGFyZS0yIiBkYXRhLW5hbWU9InNoYXJlIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMCAxMCkiPgogICAgICAgICAgICA8ZyBpZD0iR3JvdXBfNDIiIGRhdGEtbmFtZT0iR3JvdXAgNDIiPgogICAgICAgICAgICAgICAgPHBhdGggaWQ9IlBhdGhfMTciIGQ9Ik0xNC4yNDggOS41MzNhMi43NDcgMi43NDcgMCAwIDAtMi4xNTMgMS4wNDdMNy40MTMgOC4yMDdhMi42OTQgMi42OTQgMCAwIDAgLjEwNS0uNzA3IDIuNjcyIDIuNjcyIDAgMCAwLS4xMjUtLjc2N2w0LjY2MS0yLjM2M2EyLjcxNyAyLjcxNyAwIDEgMC0uNTYxLTEuNjM4IDIuNjgyIDIuNjgyIDAgMCAwIC4xMDYuNzA5TDYuOTE4IDUuODE1YTIuNzMxIDIuNzMxIDAgMSAwIC4wNDEgMy4zMmw0LjY1OCAyLjM2NWEyLjY3OSAyLjY3OSAwIDAgMC0uMTI2Ljc2OSAyLjc1NyAyLjc1NyAwIDEgMCAyLjc1Ni0yLjczNHoiIGNsYXNzPSJjbHMtMSIgZGF0YS1uYW1lPSJQYXRoIDE3IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMi4wMDYpIi8+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICAgICAgPGcgaWQ9IkVsbGlwc2VfOCIgY2xhc3M9ImNscy0yIiBkYXRhLW5hbWU9IkVsbGlwc2UgOCI+CiAgICAgICAgICAgIDxjaXJjbGUgY3g9IjE3LjUiIGN5PSIxNy41IiByPSIxNy41IiBjbGFzcz0iY2xzLTMiLz4KICAgICAgICAgICAgPGNpcmNsZSBjeD0iMTcuNSIgY3k9IjE3LjUiIHI9IjE3IiBjbGFzcz0iY2xzLTQiLz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPgo=" width="35" alt="" style="cursor:pointer;" data-toggle="popover" data-placement="top" data-content=''>
+                        </div>
+                        <div class="ml-2">
+                          <button class="btn download-btn px-4">Download</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-5">
+              <div class="document-header-bg">
+                <div class="bg-overlay">
+                  <div class="document-header-qr">
+                    <img class="qr rounded" width="100" alt="">
+                  </div>
+                  <div class="document-header-text-wrap">
+                    <h5 class="mb-0" id="docid">6161a770b0991c4596a50393</h5>
+                    <p class="mb-0" id="issuername">Maharashtra Pollution Control Board</p>
+                  </div>
+                </div>
+              </div>
+              <div class="detail-wrap pl-2">
+                <div class="d-flex align-items-center py-2">
+                  <div class="py-0 ">
+                    <p class="mb-0">Issue Date</p>
+                    <h6 class="mb-0 local-date">Sat Oct 09 2021 14:30:08 GMT+0000 (Coordinated Universal Time)</h6>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center py-2">
+                  <div class="py-0 ">
+                    <p class="mb-0">Issuer</p>
+                    <h6 class="mb-0">Maharashtra Pollution Control Board</h6>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center pt-2">
+                  <div>
+                    <p class="mb-0">Transaction ID:</p>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center">
+                  <div class="pr-2">
+                    <h6 style="word-break: break-all;">82c24243eb3fc6abbe9b5cd54d7e9b73a89cdc2b4f689964c1bfbd4dc068fb23</h6>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center pt-2">
+                  <div>
+                    <p class="mb-0">Hash (SHA256):</p>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center">
+                  <div class="pr-2">
+                    <h6 style="word-break: break-all;">2507c84f2d19367b14bcdd4a945107d0cc7b487da4a0caa1c0d1d2f8f98aecc6</h6>
+                  </div>
+                </div>
+                <div id="verify-section">
+                  <div class="d-flex align-items-center justify-content-center">
+                    <div class="py-5">
+                      <button class="btn custom-btn px-4 font-weight-bold" onclick="showVerify()">VERIFY</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- MOBILE -->
+    <div class="d-sm-block d-md-block d-lg-block d-xl-none">
+      <header>
+        <nav class="navbar py-0">
+          <a class="navbar-brand" href="#">
+            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNi4xNTQiIGhlaWdodD0iMjcuMzY5IiB2aWV3Qm94PSIwIDAgMTYuMTU0IDI3LjM2OSI+CiAgICA8ZGVmcz4KICAgICAgICA8c3R5bGU+CiAgICAgICAgICAgIC5jbHMtMXtmaWxsOiMwMDgzZTN9CiAgICAgICAgPC9zdHlsZT4KICAgIDwvZGVmcz4KICAgIDxwYXRoIGlkPSJMb2dvIiBkPSJNMTI2NjAgNjEyNi4wMjF2LTguNTdsNy45NzktNC4zNjUgOC4xNzYgNC4zNjV2OC41N2wtOC4xNzYgNC4zNDl6bTIuMjk0LTEyLjAyMmExIDEgMCAxIDEgMSAxIDEgMSAwIDAgMS0xLjAwMS0uOTk5em05LTEuNWEuNS41IDAgMSAxIC41LjUuNS41IDAgMCAxLS41MDItLjQ5OXptLTUtNGExLjUgMS41IDAgMSAxIDEuNSAxLjUgMS41IDEuNSAwIDAgMS0xLjQ5OS0xLjQ5OXptMy00YS41LjUgMCAxIDEgLjUuNS41LjUgMCAwIDEtLjQ5OS0uNDk5em0tNC0uNWExIDEgMCAxIDEgMSAxIDEgMSAwIDAgMS0xLjAwMS0uOTk5eiIgY2xhc3M9ImNscy0xIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTI2NjAgLTYxMDMuMDAxKSIvPgo8L3N2Zz4K" width="16" class="d-inline-block align-top mx-2" alt="">Powered by DocChain.io
+            <div id="google_translate_element_2"></div>
+          </a>
+        </nav>
+      </header>
+      <section class="document-mobile" id="first" style="display:none;">
+        <div class="container-fluid p-0">
+          <div class="warning">
+          </div>
+          <div class="document-header-bg mb-3">
+            <div class="bg-overlay">
+              <div class="document-header-qr">
+                <img class="qr rounded img-width" alt="">
+              </div>
+              <div class="document-header-text-wrap">
+                <h5 class="mb-0">6161a770b0991c4596a50393</h5>
+                <p class="mb-0 pb-3">Maharashtra Pollution Control Board</p>
+              </div>
+              <div class="document-header-btn-group">
+                <button id="doc" class="btn view-doc-mob-btn px-4">View Doc</button><br>
+                <button class="btn view-doc-mob-btn px-4" onclick="showVerify()">Verify</button>
+              </div>
+            </div>
+          </div>
+          <div class="detail-mob-wrapper pl-2">
+            <div class="row align-items-center">
+              <div class="col-sm-4 py-3">
+                <p class="mb-0">Issue Date</p>
+                <h6 class="mb-0 local-date">Sat Oct 09 2021 14:30:08 GMT+0000 (Coordinated Universal Time)</h6>
+              </div>
+              <div class="col-sm-4 py-3">
+                <p class="mb-0">Issuer</p>
+                <h6 class="mb-0">Maharashtra Pollution Control Board</h6>
+              </div>
+            </div>
+            <div class="d-flex align-items-center">
+              <div class="py-3 ">
+                <p class="mb-0">Transaction ID:</p>
+                <h6 class="mb-0" style="word-break: break-all;">82c24243eb3fc6abbe9b5cd54d7e9b73a89cdc2b4f689964c1bfbd4dc068fb23</h6>
+              </div>
+            </div>
+            <div class="d-flex align-items-center">
+              <div class="py-3 ">
+                <p class="mb-0">Hash (SHA256):</p>
+                <h6 class="mb-0" style="word-break: break-all;">2507c84f2d19367b14bcdd4a945107d0cc7b487da4a0caa1c0d1d2f8f98aecc6</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="document-mobile" id="side">
+        <div class="container-fluid p-0">
+          <div class="warning">
+          </div>
+          <div class="document-header-bg mb-5">
+            <div class="bg-overlay">
+              <div class="document-header-qr">
+                <img class="qr rounded img-width" alt="">
+              </div>
+              <div class="document-header-text-wrap">
+                <h5 class="mb-0">6161a770b0991c4596a50393</h5>
+                <p class="mb-0 pb-3">Maharashtra Pollution Control Board</p>
+              </div>
+              <div class="document-header-btn-group">
+                <button id="info" class="btn view-doc-mob-btn px-4">View Info</button><br>
+                <button class="btn view-doc-mob-btn px-4" onclick="showVerify()">Verify</button>
+              </div>
+            </div>
+          </div>
+          <div class="content-mob-wrap" id="task">
+            <div class="para-mob-wrap">
+              <div id="documentPages" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img id="docimage1" src="https://media.print2block.in/preview/cover/QmVn5ftPWC9RPba2qQtVnx4NftxQ4aYRz183DnvqL89LYh" class="border d-block w-100" alt="..." style="margin: auto;">
+                  </div>
+                </div>
+              </div>
+              <div class="footer-btn-section pt-3">
+                <div class="row mt-2 mb-3 carousel-main-control">
+                  <div class="col-2">
+                    <a class="carousel-control-prev" href="#documentPages"  id="pdf-prev" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                  </div>                
+                  <div class="col-8 text-center">Page <span id="pdf-current-page1">1</span> of <span id="pdf-total-pages1">1</span></div>
+                  <div class="col-2">
+                    <a class="carousel-control-next" href="#documentPages" id="pdf-next" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>                
+                </div>
+                <div class="d-flex align-items-center justify-content-end">
+                  <div class="ml-2">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNSIgaGVpZ2h0PSIzNSIgdmlld0JveD0iMCAwIDM1IDM1Ij4KICAgIDxkZWZzPgogICAgICAgIDxzdHlsZT4KICAgICAgICAgICAgLmNscy0xe2ZpbGw6IzAwODNlM30uY2xzLTIsLmNscy00e2ZpbGw6bm9uZX0uY2xzLTJ7c3Ryb2tlOiMwMDgzZTN9LmNscy0ze3N0cm9rZTpub25lfQogICAgICAgIDwvc3R5bGU+CiAgICA8L2RlZnM+CiAgICA8ZyBpZD0iU2hhcmUiPgogICAgICAgIDxnIGlkPSJzaGFyZS0yIiBkYXRhLW5hbWU9InNoYXJlIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMCAxMCkiPgogICAgICAgICAgICA8ZyBpZD0iR3JvdXBfNDIiIGRhdGEtbmFtZT0iR3JvdXAgNDIiPgogICAgICAgICAgICAgICAgPHBhdGggaWQ9IlBhdGhfMTciIGQ9Ik0xNC4yNDggOS41MzNhMi43NDcgMi43NDcgMCAwIDAtMi4xNTMgMS4wNDdMNy40MTMgOC4yMDdhMi42OTQgMi42OTQgMCAwIDAgLjEwNS0uNzA3IDIuNjcyIDIuNjcyIDAgMCAwLS4xMjUtLjc2N2w0LjY2MS0yLjM2M2EyLjcxNyAyLjcxNyAwIDEgMC0uNTYxLTEuNjM4IDIuNjgyIDIuNjgyIDAgMCAwIC4xMDYuNzA5TDYuOTE4IDUuODE1YTIuNzMxIDIuNzMxIDAgMSAwIC4wNDEgMy4zMmw0LjY1OCAyLjM2NWEyLjY3OSAyLjY3OSAwIDAgMC0uMTI2Ljc2OSAyLjc1NyAyLjc1NyAwIDEgMCAyLjc1Ni0yLjczNHoiIGNsYXNzPSJjbHMtMSIgZGF0YS1uYW1lPSJQYXRoIDE3IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMi4wMDYpIi8+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICAgICAgPGcgaWQ9IkVsbGlwc2VfOCIgY2xhc3M9ImNscy0yIiBkYXRhLW5hbWU9IkVsbGlwc2UgOCI+CiAgICAgICAgICAgIDxjaXJjbGUgY3g9IjE3LjUiIGN5PSIxNy41IiByPSIxNy41IiBjbGFzcz0iY2xzLTMiLz4KICAgICAgICAgICAgPGNpcmNsZSBjeD0iMTcuNSIgY3k9IjE3LjUiIHI9IjE3IiBjbGFzcz0iY2xzLTQiLz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPgo=" width="35" alt="" style="cursor:pointer;" data-toggle="mobpopover" data-placement="top" data-content=''>
+                  </div>
+                  <div class="ml-2">
+                    <div class="ml-2">
+                      <button class="btn download-btn px-4">Download</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="content" style="display: none" id="verify">
+      <div class="container">
+        <div class="py-3">
+          <h5 class="py-3 verification-text"><strong>Verification</strong></h5>
+          <h5 id="msgwait" style="display: none">Please wait until the verification process is complete<span class="type"></span></h5>
+          <h5 id="msginit">Please wait while we initiate the verification process on the blockchain<span class="type"></span></h5>
+        </div>
+        <div id="verify-check" style="display: none">
+          <div class="alignment">
+            <div class="d-flex align-items-center justify-content-between">
+              <div class="py-2">
+                <p class="mb-0"><strong>Fetching Encrypted Hash from Blockchain</strong></p>
+              </div>
+              <div class="py-2 px-2">
+                <img src="" id="fig[1]" width="25" alt="">
+              </div>
+            </div>
+            <div class="d-flex align-items-center justify-content-between">
+              <div class="py-2">
+                <p class="mb-0"><strong>Fetching expiry date. Valid upto: <span id="expiry-date"></span></strong></p>
+              </div>
+              <div class="py-2 px-2"><img src="" id="fig[2]" width="25" alt=""></div>
+            </div>
+            <div class="d-flex align-items-center justify-content-between">
+              <div class="py-2">
+                <p class="mb-0"><strong>Fetching Document</strong></p>
+              </div>
+              <div class="py-2 px-2"><img src="" id="fig[3]" width="25" alt=""></div>
+            </div>
+            <div class="d-flex align-items-center justify-content-between">
+              <div class="py-2">
+                <p class="mb-0"><strong>Generating Hash and Comparing</strong></p>
+              </div>
+              <div class="py-2 px-2"><img src="" id="fig[4]" width="25" alt=""></div>
+            </div>
+            <div class="d-flex align-items-center justify-content-between">
+              <div class="py-2">
+                <p class="mb-0"><strong>Verifying Cryptographic Signatures</strong></p>
+              </div>
+              <div class="py-2 px-2"><img src="" id="fig[5]" width="25" alt=""></div>
+            </div>
+            <div class="d-flex align-items-center justify-content-between">
+              <div class="py-2">
+                <p class="mb-0"><strong>Checking Revocation Status</strong></p>
+              </div>
+              <div class="py-2 px-2"><img src="" id="fig[6]" width="25" alt=""></div>
+            </div>
+          </div>
+        </div>
+        <div id="verify-wait">
+          <div style="text-align: center;">
+            <img class="loading-img-1" width="8%">
+          </div>
+        </div>
+        <div id="msgClass" style="display: none">
+          <h4 id="msg"><strong>Success!</strong> This certificate is verified.</h4>
+        </div>
+        <div class="row my-3" id="vermsg" style="display: none">
+          <div class="col-xl-8 col-lg-6 col-md-6 py-3">
+            <p class="mb-0"><b style="background-color:#8cc800;">Verified On:</b>
+              <span style="background-color: #FFEB3B;"><span id="verdate"></span></span>
+            </p>
+          </div>
+          <div class="col-xl-2 col-lg-4 col-md-4 py-3" style="display: block" id="more-info-spacer">
+          </div>
+          <div class="col-xl-2 col-lg-4 col-md-4 py-3">
+            <button class="btn blue-btn btn-block" data-toggle="modal" data-target="#auditModal" onclick="getProof()">Public Audit Proof</button>
+          </div>
+          <div class="col-xl-2 col-lg-2 col-md-2 py-3" style="display: none" id="more-info-button">
+            <button class="btn blue-btn btn-block" data-toggle="modal" data-target="#moreinfo">More info</button>
+          </div>
+        </div>
+        <div class="modal fade" id="auditModal" tabindex="-1" role="dialog" aria-labelledby="auditModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="auditModalLabel">Public Audit Proof</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div>
+                  <p class="mb-1"><strong>Old Ethereum Contract: </strong><a href="https://etherscan.io/address/0x4b1A7dCe82ea9343Defdf3B934E3b21E6578871f" target="_blank">0x4b1A7dCe82ea9343Defdf3B934E3b21E6578871f</a></p>
+                  <p class="mb-1"><strong>Contract Address: </strong><a href="https://polygonscan.com/address/0x4a22847925554E7C9327Ed72Ec8ef53253845AF9" target="_blank">0x4a22847925554E7C9327Ed72Ec8ef53253845AF9</a></p>
+                  <p class="mb-1"><strong>Contract ABI: </strong><a href="/misc/audit-abi.txt" target="_blank">Download ABI</a></p>
+                  <p class="mb-0"><strong>PublicAudit TX:</strong></p>              
+                  <p class="mb-1"><a href="https://polygonscan.com/tx/0xd45b229b4ec3a1b4eb61fcacb5932209bc57ae82b216faadcc956045638a8711" target="_blank">0xd45b229b4ec3a1b4eb61fcacb5932209bc57ae82b216faadcc956045638a8711</a></p>
+                </div>
+                <h4>Proof 1: </h4>
+                <div id="proofaload">
+                  <p class="mb-0">Connecting to Ethereum and verifying Proof...</p>
+                  <img src="" width="100px" class="d-block imgloading" alt="..." style="margin: auto;">
+                </div>
+                <div id="proofa" style="display: none">
+                  <p class="mb-1"><strong>IPFS File :</strong><a id="ipfsfile" target="_blank">View File</a></p>
+                  <p class="mb-1"><strong>Merkel Leaf ID:</strong><span id="pa_id">0</span></p>
+                  <p class="mb-0"><strong>Merkel Leaf Hash:</strong></p>
+                  <p class="mb-1" id="leaf"></p>
+                  <p class="mb-0"><strong>Merkel Tree Root:</strong></p>
+                  <p class="mb-1" id="root"></p>
+                  <p class="mb-0"><strong>Merkel Leaf Path:</strong></p>
+                  <div id="proof"></div>
+                </div>
+                <div id="proofaerror" style="display: none">
+                  <p class="mb-0" id="proofamsg"></p>
+                </div>
+                <hr>
+                <h4>Proof 2: </h4>
+                <div id="proofbload">
+                  <p class="mb-0">Connecting to Docchain and verifying Proof...</p>
+                  <img src="" width="100px" class="d-block imgloading" alt="..." style="margin: auto;">
+                </div>
+                <div id="proofb" style="display: none">
+                  <p class="mb-0"><strong>Audit block id: </strong><span id="ba[0]"></span><br><strong>Block: </strong><span id="bn[0]"></span><br><strong>Datahash: </strong><span id="bh[0]"></span></p>
+                  <p class="mb-0"><strong>Audit block id: </strong><span id="ba[1]"></span><br><strong>Block: </strong><span id="bn[1]"></span><br><strong>Datahash: </strong><span id="bh[1]"></span></p>
+                  <p class="mb-0"><strong>Audit block id: </strong><span id="ba[2]"></span><br><strong>Block: </strong><span id="bn[2]"></span><br><strong>Datahash: </strong><span id="bh[2]"></span></p>
+                </div>
+                <div id="proofberror" style="display: none">
+                  <p class="mb-0" id="proofbmsg"></p>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn blue-btn text-white" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="moreinfo" tabindex="-1" role="dialog" aria-labelledby="auditModal" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="auditModal">More Info</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="row" id="pdfFrame" style="display: none">
+                  <div class="container">
+                    <iframe width="400" height="566"></iframe>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-8">
+                    <table class="table table-bordered table-hover" style="word-break: break-word;">
+                      <tbody id="tbody">
+                        <tr>
+                          <td>Document ID</td>
+                          <td>6161a770b0991c4596a50393</td>
+                        </tr>
+                        <tr id="rec_type">
+                          <td>Document</td>
+                          <td id="rec_type_val"></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="col-md-4">
+                    <img id="rec_img_src" class="thumbnail" src="" width="120" alt="" onerror='this.src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDUxMi4wMDMgNTEyLjAwMyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyLjAwMyA1MTIuMDAzOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8cG9seWdvbiBzdHlsZT0iZmlsbDojRTZBRjc4OyIgcG9pbnRzPSIzMzUuNDQ2LDM2MS45MzkgMzM1LjQ0NiwzMDAuMTUgMTc2LjU1OCwzMDAuMTUgMTc2LjU1OCwzNjEuOTM5IDI1Ni4wMDIsNDMyLjU1NiAiLz4NCjxwYXRoIHN0eWxlPSJmaWxsOiNFRkYyRkE7IiBkPSJNNDU4LjI4NiwzOTAuODQzbC0xMDkuMjI5LTI1LjcwMWMtMS42NS0wLjM4OC0zLjE2Ny0xLjA0Ny00LjU4Ny0xLjg0NmwtODguNDY5LDUxLjYwN0wxNzAuOTgyLDM2MC44DQoJYy0yLjIwMSwyLjA3Mi00LjkzMywzLjYxMi04LjAzNiw0LjM0M0w1My43MTcsMzkwLjg0NGMtMTUuOTUsMy43NTMtMjcuMjIyLDE3Ljk4NS0yNy4yMjIsMzQuMzd2NjkuMTM0DQoJYzAsOS43NTEsNy45MDQsMTcuNjU0LDE3LjY1NCwxNy42NTRoNDIzLjcwMmM5Ljc1MSwwLDE3LjY1NC03LjkwNCwxNy42NTQtMTcuNjU0di02OS4xMzQNCglDNDg1LjUwNyw0MDguODI4LDQ3NC4yMzUsMzk0LjU5NSw0NTguMjg2LDM5MC44NDN6Ii8+DQo8cGF0aCBzdHlsZT0iZmlsbDojRDI5QjZFOyIgZD0iTTE3Ni41NTgsMzAwLjE1djY1LjE5M2MxMDAuMDc4LDM2LjA1NywxNTguODg4LTU0LjE4NSwxNTguODg4LTU0LjE4NXYtMTEuMDA5SDE3Ni41NThWMzAwLjE1eiIvPg0KPHBhdGggc3R5bGU9ImZpbGw6I0YwQzA4NzsiIGQ9Ik0xNDEuMjQ5LDk3LjEyN2w3LjY5MiwxNjkuMjI4YzAuNzE4LDE1LjgwOSw4LjQ3LDMwLjQ3LDIxLjEzLDM5Ljk2NWwzNi40OTgsMjcuMzc0DQoJYzkuMTY4LDYuODc1LDIwLjMxOCwxMC41OTMsMzEuNzc4LDEwLjU5M2gzNS4zMDljMTEuNDYsMCwyMi42MS0zLjcxNywzMS43NzgtMTAuNTkzbDM2LjQ5OC0yNy4zNzQNCgljMTIuNjYtOS40OTYsMjAuNDEyLTI0LjE1NSwyMS4xMy0zOS45NjVsNy42OTItMTY5LjIyOEMzNzAuNzUzLDk3LjEyNywxNDEuMjQ5LDk3LjEyNywxNDEuMjQ5LDk3LjEyN3oiLz4NCjxwYXRoIHN0eWxlPSJmaWxsOiNFNkFGNzg7IiBkPSJNMjI5LjUyMSwxMzIuNDM1YzM1LjMwOSwwLDg4LjI3MS04LjgyNywxMDAuODMzLTM1LjMwOUgxNDEuMjQ5bDcuNjkyLDE2OS4yMjgNCgljMC43MTgsMTUuODA5LDguNDcsMzAuNDY5LDIxLjEzMSwzOS45NjVsMzYuNDk4LDI3LjM3NGM5LjE2OCw2Ljg3NSwyMC4zMTgsMTAuNTkzLDMxLjc3OCwxMC41OTNoMTcuNjU0DQoJYy0xNy42NTQsMC01Mi45NjMtMzUuMzA5LTUyLjk2My03OS40NDRjMC0yMS41ODYsMC03OS40NDQsMC0xMDUuOTI2QzIwMy4wMzksMTUwLjA4OSwyMTEuODY2LDEzMi40MzUsMjI5LjUyMSwxMzIuNDM1eiIvPg0KPGc+DQoJPHBhdGggc3R5bGU9ImZpbGw6I0U0RUFGNjsiIGQ9Ik05MS4zLDQ1NC43MTRsLTU3LjE5OS01MS4zODJjLTQuNzkzLDYuMDY5LTcuNjAzLDEzLjcwNi03LjYwMywyMS44ODJ2NjkuMTM0DQoJCWMwLDkuNzUxLDcuOTA0LDE3LjY1NCwxNy42NTQsMTcuNjU0aDYxLjc5di0yNC40NTRDMTA1Ljk0MSw0NzUuMDIxLDEwMC42MTgsNDYzLjA4NCw5MS4zLDQ1NC43MTR6Ii8+DQoJPHBhdGggc3R5bGU9ImZpbGw6I0U0RUFGNjsiIGQ9Ik00MjAuNzA1LDQ1NC43MTRsNTcuMTk5LTUxLjM4MmM0Ljc5Myw2LjA2OSw3LjYwMywxMy43MDYsNy42MDMsMjEuODgydjY5LjEzNA0KCQljMCw5Ljc1MS03LjkwNCwxNy42NTQtMTcuNjU0LDE3LjY1NGgtNjEuNzl2LTI0LjQ1NEM0MDYuMDYzLDQ3NS4wMjEsNDExLjM4Niw0NjMuMDg0LDQyMC43MDUsNDU0LjcxNHoiLz4NCjwvZz4NCjxwb2x5Z29uIHN0eWxlPSJmaWxsOiM1QjVENkU7IiBwb2ludHM9IjI3OC4wNyw1MTIuMDAxIDIzMy45MzQsNTEyLjAwMSAyMzkuNDUxLDQzMi41NTYgMjcyLjU1Myw0MzIuNTU2ICIvPg0KPHBhdGggc3R5bGU9ImZpbGw6IzUxNTI2MjsiIGQ9Ik0yNzguMDcsNDE0LjkwMmgtNDQuMTM2djE2LjYxM2MwLDUuNDUxLDQuNDE4LDkuODY5LDkuODY5LDkuODY5SDI2OC4yDQoJYzUuNDUxLDAsOS44NjktNC40MTgsOS44NjktOS44Njl2LTE2LjYxM0gyNzguMDd6Ii8+DQo8Zz4NCgk8cGF0aCBzdHlsZT0iZmlsbDojRTRFQUY2OyIgZD0iTTE3NS4zMTksMzQyLjI4N2w4MC42ODQsNzIuNjE1YzAsMC0yMi41OTYsMTEuNDA3LTUwLjQ4LDM0LjM5OA0KCQljLTUuNzUyLDQuNzQyLTE0LjQ1MywyLjgyMS0xNy41MzgtMy45NjZsLTM3LjkwNy04My4zOTRsMTEuOTkyLTE3Ljk4N0MxNjUuMDU0LDMzOS40NzMsMTcxLjMxOCwzMzguNjg3LDE3NS4zMTksMzQyLjI4N3oiLz4NCgk8cGF0aCBzdHlsZT0iZmlsbDojRTRFQUY2OyIgZD0iTTMzNi42ODYsMzQyLjI4N2wtODAuNjg0LDcyLjYxNWMwLDAsMjIuNTk2LDExLjQwNyw1MC40OCwzNC4zOTgNCgkJYzUuNzUyLDQuNzQyLDE0LjQ1MywyLjgyMSwxNy41MzgtMy45NjZsMzcuOTA3LTgzLjM5NGwtMTEuOTkyLTE3Ljk4N0MzNDYuOTUsMzM5LjQ3MywzNDAuNjg2LDMzOC42ODcsMzM2LjY4NiwzNDIuMjg3eiIvPg0KPC9nPg0KPHBhdGggc3R5bGU9ImZpbGw6Izc4NTU1MDsiIGQ9Ik0zMDkuNTE2LDM4LjY0N2w4LjI3NSw1OC40OGMzNy43NzUsNy41NTUsNDMuMjE5LDY2LjgzNyw0NC4wMDMsODMuNzY5DQoJYzAuMTQyLDMuMDczLDEuMTIzLDYuMDQsMi43OSw4LjYyNWwxNC40MTMsMjIuMzU4YzAsMC00LjkzMy0zNi45NjQsMTcuNjU0LTYxLjc5QzM5Ni42NTIsMTUwLjA4OSw0MDQuNDA4LDMuMzM4LDMwOS41MTYsMzguNjQ3eiIvPg0KPHBhdGggc3R5bGU9ImZpbGw6I0YwQzA4NzsiIGQ9Ik0zODcuODUxLDIwOC4xMTVsLTkuOTY1LDM5Ljg2MWMtMS4xODEsNC43MjUtNS40MjUsOC4wMzgtMTAuMjk2LDguMDM4bDAsMA0KCWMtNS4zNTMsMC05Ljg2Ny0zLjk4NS0xMC41MzEtOS4yOTZsLTUuMDk3LTQwLjc3Yy0xLjM2NC0xMC45MTMsNy4xNDQtMjAuNTUxLDE4LjE0Mi0yMC41NTFoMC4wMDgNCglDMzgyLjAwOCwxODUuMzk4LDM5MC43MzYsMTk2LjU3NSwzODcuODUxLDIwOC4xMTV6Ii8+DQo8cGF0aCBzdHlsZT0iZmlsbDojNjk0QjRCOyIgZD0iTTE0OS43MDksMjIuODMxbDEzLjA1Niw4LjkxOWMtNTkuMDMxLDQzLjU4NC00Ny45OTgsMTE4LjMzOS00Ny45OTgsMTE4LjMzOQ0KCWMxNy42NTQsMTcuNjU0LDE3LjY1NCw2MS43OSwxNy42NTQsNjEuNzlsMTcuNjU0LTE3LjY1NGMwLDAtNi44MTMtNTAuOTk4LDI2LjQ4MS03MC42MTdjMzAuODk1LTE4LjIwNiw1Ny45MjgtOC44MjcsODUuNTEzLTguODI3DQoJYzczLjkyNywwLDk0LjYxNi0yNy44NjEsOTEuMDMtNjEuNzljLTEuODU2LTE3LjU1Ni0yOC42OTgtNTQuMTI2LTk3LjA5OC01Mi45NjNDMjI4LjM5NywwLjQ5NywxNzYuNTU4LDguODU1LDE0OS43MDksMjIuODMxeiIvPg0KPHBhdGggc3R5bGU9ImZpbGw6IzVBNDE0NjsiIGQ9Ik0xNDQuNTU5LDEwNy4wNTdjMCwwLTkuMzc5LTM2Ljk2NCwxOC4yMDYtNzUuMzA2Yy01OS4wMzEsNDMuNTg0LTQ3Ljk5OCwxMTguMzM5LTQ3Ljk5OCwxMTguMzM5DQoJYzE3LjY1NCwxNy42NTQsMTcuNjU0LDYxLjc5LDE3LjY1NCw2MS43OWwxNy42NTQtMTcuNjU0YzAsMC02LjgxMy01MC45OTgsMjYuNDgxLTcwLjYxN2MzMC44OTUtMTguMjA2LDU3LjkyOC04LjgyNyw4NS41MTMtOC44MjcNCgljMTIuMDIzLDAsMjIuNS0wLjgwNSwzMS44MzItMi4xODVDMjM2Ljk2OSwxMTQuNTA1LDIwMy40MDgsNzEuMzgsMTQ0LjU1OSwxMDcuMDU3eiIvPg0KPHBhdGggc3R5bGU9ImZpbGw6I0U2QUY3ODsiIGQ9Ik0xMjQuMTUzLDIwOC4xMTVsOS45NjUsMzkuODYxYzEuMTgxLDQuNzI1LDUuNDI1LDguMDM4LDEwLjI5Niw4LjAzOGwwLDANCgljNS4zNTMsMCw5Ljg2Ny0zLjk4NSwxMC41MzEtOS4yOTZsNS4wOTctNDAuNzdjMS4zNjQtMTAuOTEzLTcuMTQ0LTIwLjU1MS0xOC4xNDItMjAuNTUxaC0wLjAwOA0KCUMxMjkuOTk2LDE4NS4zOTgsMTIxLjI2OCwxOTYuNTc1LDEyNC4xNTMsMjA4LjExNXoiLz4NCjxwYXRoIHN0eWxlPSJmaWxsOiNFNEVBRjY7IiBkPSJNMzcwLjc1NSw0OTQuMzQ2aC02MS43OWMtNC44NzUsMC04LjgyNywzLjk1Mi04LjgyNyw4LjgyN3Y4LjgyN2g3OS40NDR2LTguODI3DQoJQzM3OS41ODIsNDk4LjI5OSwzNzUuNjI5LDQ5NC4zNDYsMzcwLjc1NSw0OTQuMzQ2eiIvPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo="'>
+                  </div>
+                </div>
+                <p style="font-size: 0.75rem;margin-bottom: 0rem;position: absolute;right: 38px;bottom: 25px"><i class="fa fa-info-circle" aria-hidden="true"></i> Verified Data from Blockchain</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn blue-btn" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-custom">
+      <p class="py-3">All rights reserved. <strong><a href='http://mpcb.gov.in' class="notranslate" target='_blank'>Maharashtra Pollution Control Board</a></strong></p>
+    </div>
+  </div>
+  <p style="display: none" id="fileid">QmVn5ftPWC9RPba2qQtVnx4NftxQ4aYRz183DnvqL89LYh</p>
+  <p style="display: none" id="bstate">public</p>
+  <div id="error-content" style="display: none">
+    <div class="row" style="position: absolute;top: 0;bottom: 0;left: 0;right: 0;width: 50%;height: 30%;margin: auto;">
+      <div class="col-md-6 border-right"><h1 class="text-right"><i class="fa fa-exclamation-circle fa-4x text-danger"></i></h1></div>
+      <div class="col-md-6 border-left">
+      <h1 class="display-1 text-left font-weight-bold">502</h1>
+      <p>ER...BAD GATEWAY</p>
+      <p class="text-justify">Sorry, the server is not reachable, either because it is down or restarting. We have been notified and fix it as soon as possible. Kindly try again after sometime.</p>
+      </div>
+    </div>
+  </div>
+  <button style="display: none" id="generatePDF">Generate PDF</button>
+  <p style="display: none" id="auditendpoint">audit.mpcb.print2block.in</p>
+  <a class="btn btn-info" id="dwl-link" style="display: none" download="6161a770b0991c4596a50393.pdf">Download PDF</a>
+  <div class="modal" id="confirmLowModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i>Suggestion...</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <strong id="lowMsg">Your device is detected to have low cpu performance, downloading in PDF will take a few more minutes than normal, you may use a better configuration system for higher quality PDF or do you want to proceed here?</strong>
+          <br><br>
+          <div class="row">
+            <div class="col-sm-3 offset-sm-6">
+              <button type="button" class="btn btn-primary btn-block" onclick="generateImgData()" data-dismiss="modal">Proceed</button>
+            </div>
+            <div class="col-sm-3">
+              <button type="button" class="btn btn-danger btn-block" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal" id="signpdfModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <div id="cspdf" class="text-center">
+            Do you want to download digitally signed PDF <br><br><button type="button" class="btn btn-info signed-download-button" >Download</button>
+          </div>
+          <div id="pspdf" class="d-none text-center">
+            Your PDF will be available for download after verification. Verifying...
+            <img class="loading-img-1" width="8%">
+          </div>
+          <div id="dspdf" class="d-none text-center">
+            Your digitally signed PDF is ready, <span class="signed-pdf-download text-primary" style="cursor: pointer;">Click here to Download</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <p style="display: none"  id="aissuer">5d02d9186fecb05d2f7f8b5d</p>
+  <script src="/js/app.js"></script>
+  <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+</html>

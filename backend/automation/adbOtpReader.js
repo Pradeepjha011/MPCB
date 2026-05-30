@@ -62,15 +62,16 @@ const extractLatestOtpCandidate = (rawOutput) => {
   return latest;
 };
 
-const waitForOTP = async () => {
+const waitForOTP = async (options = {}) => {
+  const sinceTimestamp = Number(options.sinceTimestamp || 0);
   console.log('Waiting for OTP...');
 
   const startTime = Date.now();
-  let lastSeenDate = -1;
+  let lastSeenDate = sinceTimestamp > 0 ? sinceTimestamp : -1;
   const firstSnapshot = await runAdbSmsQuery().catch(() => '');
   const initialRows = parseSmsRows(firstSnapshot);
   for (const row of initialRows) {
-    if (row.date > lastSeenDate) {
+    if (row.date > lastSeenDate && (sinceTimestamp <= 0 || row.date >= sinceTimestamp)) {
       lastSeenDate = row.date;
     }
   }
@@ -80,7 +81,7 @@ const waitForOTP = async () => {
     const latestOtp = extractLatestOtpCandidate(rawOutput);
     console.log('Checking SMS inbox...');
 
-    if (latestOtp.body && latestOtp.date >= lastSeenDate) {
+    if (latestOtp.body && latestOtp.date >= lastSeenDate && (sinceTimestamp <= 0 || latestOtp.date >= sinceTimestamp)) {
       console.log('SMS received');
       lastSeenDate = latestOtp.date + 1;
 
