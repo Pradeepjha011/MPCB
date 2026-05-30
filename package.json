@@ -1,0 +1,13 @@
+{
+  "name": "playwright-company-downloader",
+  "version": "1.0.0",
+  "private": true,
+  "main": "automation.js",
+  "scripts": {
+    "start": "node automation.js"
+  },
+  "dependencies": {
+    "playwright": "^1.60.0",
+    "xlsx": "^0.18.5"
+  }
+}

@@ -1,0 +1,477 @@
+2026-05-30 16:16:21,591 INFO Automation started
+2026-05-30 16:16:23,460 INFO No auth state found. Opening a fresh browser for manual login.
+2026-05-30 16:16:23,489 INFO Company started: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 16:27:59,229 INFO Automation started
+2026-05-30 16:27:59,470 INFO Starting a fresh run.
+2026-05-30 16:27:59,823 WARNING Could not connect to Chrome at http://127.0.0.1:9222 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+). Falling back to Playwright launch.
+2026-05-30 16:28:00,886 INFO No auth state found. Opening a fresh browser for manual login.
+2026-05-30 16:28:00,907 INFO Company started: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 16:28:07,898 INFO Searching for company: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 16:30:00,282 INFO Automation started
+2026-05-30 16:30:00,537 INFO Starting a fresh run.
+2026-05-30 16:30:00,892 INFO Connected to Chrome debugging browser at http://127.0.0.1:9222
+2026-05-30 16:30:00,893 INFO Company started: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 16:30:31,027 ERROR Failed: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+Traceback (most recent call last):
+  File "C:\Users\VIKAS\Downloads\pradeep\main.py", line 161, in main
+    status, message = process_company(browser, otp_reader, downloader, company)
+                      ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\VIKAS\Downloads\pradeep\main.py", line 88, in process_company
+    page = browser.open_login_page()
+  File "C:\Users\VIKAS\Downloads\pradeep\browser_manager.py", line 83, in open_login_page
+    page.goto(self.base_url, wait_until="domcontentloaded")
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\VIKAS\Downloads\pradeep\.venv\Lib\site-packages\playwright\sync_api\_generated.py", line 9612, in goto
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.goto(
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        )
+        ^
+    )
+    ^
+  File "C:\Users\VIKAS\Downloads\pradeep\.venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\VIKAS\Downloads\pradeep\.venv\Lib\site-packages\playwright\_impl\_page.py", line 557, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\VIKAS\Downloads\pradeep\.venv\Lib\site-packages\playwright\_impl\_frame.py", line 156, in goto
+    await self._channel.send(
+        "goto", self._navigation_timeout, locals_to_params(locals())
+    )
+  File "C:\Users\VIKAS\Downloads\pradeep\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\VIKAS\Downloads\pradeep\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.ecmpcb.in/cms", waiting until "domcontentloaded"
+
+2026-05-30 16:30:31,040 ERROR Reason: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.ecmpcb.in/cms", waiting until "domcontentloaded"
+
+
+2026-05-30 16:30:31,043 INFO Company started: PROTO D ENGINEERING
+2026-05-30 16:30:37,911 INFO Searching for company: PROTO D ENGINEERING
+2026-05-30 16:33:22,562 INFO Automation started
+2026-05-30 16:33:22,754 INFO Resuming from saved progress. Completed rows: [0]
+2026-05-30 16:33:23,101 INFO Connected to Chrome debugging browser at http://127.0.0.1:9222
+2026-05-30 16:33:23,102 INFO Skipping already completed row 0: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 16:33:23,102 INFO Company started: PROTO D ENGINEERING
+2026-05-30 16:33:32,370 INFO Searching for company: PROTO D ENGINEERING
+2026-05-30 16:42:53,287 INFO Automation started
+2026-05-30 16:42:53,536 INFO Resuming from saved progress. Completed rows: [0]
+2026-05-30 16:42:53,871 WARNING Could not connect to Chrome at http://127.0.0.1:9222 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+). Falling back to Playwright launch.
+2026-05-30 16:42:54,776 INFO No auth state found. Opening a fresh browser for manual login.
+2026-05-30 16:42:54,806 INFO Skipping already completed row 0: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 16:42:54,808 INFO Company started: PROTO D ENGINEERING
+2026-05-30 16:43:01,399 INFO Searching for company: PROTO D ENGINEERING
+2026-05-30 16:43:06,854 INFO Company found: PROTO D ENGINEERING
+2026-05-30 16:48:26,894 INFO Automation started
+2026-05-30 16:48:27,232 INFO Resuming from saved progress. Completed rows: [0]
+2026-05-30 16:48:27,614 INFO Connected to Chrome debugging browser at http://127.0.0.1:9222
+2026-05-30 16:48:27,614 INFO Skipping already completed row 0: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 16:48:27,614 INFO Company started: PROTO D ENGINEERING
+2026-05-30 16:49:49,617 INFO Automation started
+2026-05-30 16:49:49,829 INFO Resuming from saved progress. Completed rows: [0]
+2026-05-30 16:49:50,278 INFO Connected to Chrome debugging browser at http://127.0.0.1:9222
+2026-05-30 16:49:50,278 INFO Skipping already completed row 0: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 16:49:50,278 INFO Company started: PROTO D ENGINEERING
+2026-05-30 16:55:07,855 INFO Automation started
+2026-05-30 16:55:08,094 INFO Resuming from saved progress. Completed rows: [0]
+2026-05-30 16:55:08,488 WARNING Could not connect to Chrome at http://127.0.0.1:9222 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+). Falling back to Playwright launch.
+2026-05-30 16:55:09,200 INFO No auth state found. Opening a fresh browser for manual login.
+2026-05-30 16:55:09,229 INFO Skipping already completed row 0: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 16:55:09,230 INFO Company started: PROTO D ENGINEERING
+2026-05-30 16:55:27,582 INFO Searching for company: PROTO D ENGINEERING
+2026-05-30 16:55:36,227 INFO Captcha still present, but it was already handled once during this run.
+2026-05-30 16:55:36,294 INFO Company found: PROTO D ENGINEERING
+2026-05-30 16:55:36,402 INFO Captcha still present, but it was already handled once during this run.
+2026-05-30 17:05:07,991 INFO Automation started
+2026-05-30 17:05:08,290 INFO Resuming from saved progress. Completed rows: [0]
+2026-05-30 17:05:08,627 WARNING Could not connect to Chrome at http://127.0.0.1:9222 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+). Falling back to Playwright launch.
+2026-05-30 17:05:09,379 INFO No auth state found. Opening a fresh browser for manual login.
+2026-05-30 17:05:09,403 INFO Skipping already completed row 0: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 17:05:09,409 INFO Company started: PROTO D ENGINEERING
+2026-05-30 17:07:12,759 INFO Automation started
+2026-05-30 17:07:12,931 INFO Resuming from saved progress. Completed rows: [0]
+2026-05-30 17:07:13,334 WARNING Could not connect to Chrome at http://127.0.0.1:9222 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+). Falling back to Playwright launch.
+2026-05-30 17:07:13,589 INFO No auth state found. Opening a fresh browser for manual login.
+2026-05-30 17:07:13,603 INFO Skipping already completed row 0: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 17:07:13,604 INFO Company started: PROTO D ENGINEERING
+2026-05-30 17:09:10,363 INFO Automation started
+2026-05-30 17:09:10,516 INFO Resuming from saved progress. Completed rows: [0]
+2026-05-30 17:09:10,951 WARNING Could not connect to Chrome at http://127.0.0.1:9222 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+). Falling back to Playwright launch.
+2026-05-30 17:09:11,150 INFO No auth state found. Opening a fresh browser for manual login.
+2026-05-30 17:09:11,162 INFO Skipping already completed row 0: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 17:09:11,162 INFO Company started: PROTO D ENGINEERING
+2026-05-30 17:16:30,642 INFO Automation started
+2026-05-30 17:16:30,950 INFO Resuming from saved progress. Completed rows: [0]
+2026-05-30 17:16:35,174 WARNING Could not connect to Chrome at http://127.0.0.1:9222 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+). Falling back to Playwright launch.
+2026-05-30 17:16:36,178 INFO No auth state found. Opening a fresh browser for manual login.
+2026-05-30 17:16:36,217 INFO Skipping already completed row 0: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 17:16:36,218 INFO Company started: PROTO D ENGINEERING
+2026-05-30 17:20:32,401 INFO Automation started
+2026-05-30 17:20:32,603 INFO Resuming from saved progress. Completed rows: [0]
+2026-05-30 17:20:32,937 WARNING Could not connect to Chrome at http://127.0.0.1:9222 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+). Falling back to Playwright launch.
+2026-05-30 17:20:33,416 INFO No auth state found. Opening a fresh browser for manual login.
+2026-05-30 17:20:33,436 INFO Skipping already completed row 0: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 17:20:33,437 INFO Company started: PROTO D ENGINEERING
+2026-05-30 17:22:24,223 INFO Automation started
+2026-05-30 17:22:24,386 INFO Resuming from saved progress. Completed rows: [0]
+2026-05-30 17:22:24,831 WARNING Could not connect to Chrome at http://127.0.0.1:9222 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+). Falling back to Playwright launch.
+2026-05-30 17:22:25,077 INFO No auth state found. Opening a fresh browser for manual login.
+2026-05-30 17:22:25,096 INFO Skipping already completed row 0: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 17:22:25,097 INFO Company started: PROTO D ENGINEERING
+2026-05-30 17:26:00,041 INFO Name-paste automation started
+2026-05-30 17:26:00,372 INFO Loaded 200 companies from Excel
+2026-05-30 17:26:00,865 WARNING Could not connect to Chrome at http://127.0.0.1:9222 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+). Falling back to Playwright launch.
+2026-05-30 17:26:01,376 INFO No auth state found. Opening a fresh browser for manual login.
+2026-05-30 17:26:08,003 INFO Pasting company name: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 17:26:08,136 INFO Company name pasted
+2026-05-30 17:26:09,637 INFO Pasting company name: PROTO D ENGINEERING
+2026-05-30 17:26:09,683 INFO Company name pasted
+2026-05-30 17:26:11,184 INFO Pasting company name: SAPTAGIRI PACKAGINGS PVT. LTD.
+2026-05-30 17:26:11,237 INFO Company name pasted
+2026-05-30 17:26:12,738 INFO Pasting company name: AKRAM LEATHER WORKS
+2026-05-30 17:26:12,786 INFO Company name pasted
+2026-05-30 17:26:14,287 INFO Pasting company name: A. G. SCRAP MERCHANT
+2026-05-30 17:26:14,377 INFO Company name pasted
+2026-05-30 17:26:15,878 INFO Pasting company name: TATSUNO INDIA PRIVATE LIMITED
+2026-05-30 17:26:15,923 INFO Company name pasted
+2026-05-30 17:26:17,423 INFO Pasting company name: SUYOG AUTO CAST PVT. LTD.
+2026-05-30 17:26:17,469 INFO Company name pasted
+2026-05-30 17:26:18,970 INFO Pasting company name: R R ENTERPRISE
+2026-05-30 17:26:19,022 INFO Company name pasted
+2026-05-30 17:26:20,524 INFO Pasting company name: BLISS DAIRY FRESH PRIVATE LIMITED
+2026-05-30 17:26:20,574 INFO Company name pasted
+2026-05-30 17:26:22,074 INFO Pasting company name: M/S. AVDHOOT PAPER PRODUCTS PVT. LTD.
+2026-05-30 17:26:22,151 INFO Company name pasted
+2026-05-30 17:26:23,652 INFO Pasting company name: BLUE STAR DIAMONDS PRIVATE LIMITED
+2026-05-30 17:26:23,693 INFO Company name pasted
+2026-05-30 17:26:25,193 INFO Pasting company name: KAESER COMPRESSORS INDIA PVT LTD
+2026-05-30 17:26:25,198 WARNING Could not find the MPCB search box for KAESER COMPRESSORS INDIA PVT LTD
+2026-05-30 17:26:25,198 INFO Company name pasted
+2026-05-30 17:26:26,698 INFO Pasting company name: FAB TECH WORKS AND CONSTRUCTIONS PRIVATE LIMITED
+2026-05-30 17:26:26,705 WARNING Could not find the MPCB search box for FAB TECH WORKS AND CONSTRUCTIONS PRIVATE LIMITED
+2026-05-30 17:26:26,705 INFO Company name pasted
+2026-05-30 17:26:28,205 INFO Pasting company name: SEASON APPARELS PVT LTD
+2026-05-30 17:26:28,210 WARNING Could not find the MPCB search box for SEASON APPARELS PVT LTD
+2026-05-30 17:26:28,210 INFO Company name pasted
+2026-05-30 17:35:52,038 INFO Search-only automation started
+2026-05-30 17:35:52,283 INFO Loaded 200 companies from Excel
+2026-05-30 17:35:52,614 WARNING Could not connect to Chrome at http://127.0.0.1:9222 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+). Falling back to Playwright launch.
+2026-05-30 17:35:53,753 INFO No auth state found. Opening a fresh browser for manual login.
+2026-05-30 17:35:57,671 INFO Processing company: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 17:36:00,446 INFO Company name pasted: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 17:39:35,040 INFO Search-only automation started
+2026-05-30 17:39:35,251 INFO Loaded 200 companies from Excel
+2026-05-30 17:39:35,569 WARNING Could not connect to Chrome at http://127.0.0.1:9222 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+). Falling back to Playwright launch.
+2026-05-30 17:39:36,472 INFO No auth state found. Opening a fresh browser for manual login.
+2026-05-30 17:39:40,078 INFO Processing company: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 17:39:43,397 INFO Company name pasted: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 17:43:17,679 INFO First company requires manual captcha solve and manual Go click.
+2026-05-30 17:43:40,330 INFO Search-only automation started
+2026-05-30 17:43:40,658 INFO Loaded 200 companies from Excel
+2026-05-30 17:43:41,006 WARNING Could not connect to Chrome at http://127.0.0.1:9222 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+). Falling back to Playwright launch.
+2026-05-30 17:43:41,485 INFO No auth state found. Opening a fresh browser for manual login.
+2026-05-30 17:43:51,026 INFO Processing company: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 17:43:54,251 INFO Company name pasted: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 17:52:50,745 INFO Single-company MPCB flow started
+2026-05-30 17:52:51,129 INFO Loaded 200 companies from Excel
+2026-05-30 17:52:51,491 WARNING Could not connect to Chrome at http://127.0.0.1:9222 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+). Falling back to Playwright launch.
+2026-05-30 17:52:52,097 INFO No auth state found. Opening a fresh browser for manual login.
+2026-05-30 17:52:56,646 INFO Processing first company only: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 17:52:59,913 INFO Company name pasted: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 17:53:17,576 INFO Go button clicked for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 17:53:47,882 WARNING Could not open the mobile number page for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 17:53:48,476 INFO Single-company MPCB flow finished
+2026-05-30 17:56:02,840 INFO Single-company MPCB flow started
+2026-05-30 17:56:03,071 INFO Loaded 200 companies from Excel
+2026-05-30 17:56:03,443 WARNING Could not connect to Chrome at http://127.0.0.1:9222 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+). Falling back to Playwright launch.
+2026-05-30 17:56:04,674 INFO No auth state found. Opening a fresh browser for manual login.
+2026-05-30 17:56:11,035 INFO Processing first company only: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 17:56:14,421 INFO Company name pasted: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 17:56:39,072 INFO Go button clicked for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 17:58:32,384 WARNING Could not open the mobile number page for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 17:58:32,853 INFO Single-company MPCB flow finished
+2026-05-30 18:00:52,629 INFO Single-company MPCB flow started
+2026-05-30 18:00:52,914 INFO Loaded 200 companies from Excel
+2026-05-30 18:00:53,273 WARNING Could not connect to Chrome at http://127.0.0.1:9222 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+). Falling back to Playwright launch.
+2026-05-30 18:00:53,874 INFO No auth state found. Opening a fresh browser for manual login.
+2026-05-30 18:00:58,439 INFO Processing first company only: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:01:01,735 INFO Company name pasted: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:01:18,475 INFO Go button clicked for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:01:30,673 INFO Mobile number page opened for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:01:45,805 INFO Mobile number filled for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:02:00,839 WARNING Could not click Get OTP for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:02:01,377 INFO Single-company MPCB flow finished
+2026-05-30 18:03:36,777 INFO Single-company MPCB flow started
+2026-05-30 18:03:37,125 INFO Loaded 200 companies from Excel
+2026-05-30 18:03:37,469 WARNING Could not connect to Chrome at http://127.0.0.1:9222 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+). Falling back to Playwright launch.
+2026-05-30 18:03:37,746 INFO No auth state found. Opening a fresh browser for manual login.
+2026-05-30 18:03:40,855 INFO Processing first company only: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:03:46,547 INFO Company name pasted: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:03:58,170 INFO Go button clicked for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:04:10,205 INFO Mobile number page opened for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:04:45,278 WARNING Could not fill mobile number for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:04:59,153 WARNING Could not click Get OTP for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:04:59,569 INFO Single-company MPCB flow finished
+2026-05-30 18:07:11,915 INFO Single-company MPCB flow started
+2026-05-30 18:07:12,191 INFO Loaded 200 companies from Excel
+2026-05-30 18:07:12,562 WARNING Could not connect to Chrome at http://127.0.0.1:9222 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+). Falling back to Playwright launch.
+2026-05-30 18:07:13,109 INFO No auth state found. Opening a fresh browser for manual login.
+2026-05-30 18:07:19,453 INFO Processing first company only: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:07:23,056 INFO Company name pasted: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:07:39,967 INFO Go button clicked for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:07:52,074 INFO Mobile number page opened for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:08:27,191 WARNING Could not fill mobile number for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:08:57,288 WARNING Could not click Get OTP for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:08:57,758 INFO Single-company MPCB flow finished
+2026-05-30 18:10:13,726 INFO Single-company MPCB flow started
+2026-05-30 18:10:13,916 INFO Loaded 200 companies from Excel
+2026-05-30 18:10:14,292 WARNING Could not connect to Chrome at http://127.0.0.1:9222 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+). Falling back to Playwright launch.
+2026-05-30 18:10:14,677 INFO No auth state found. Opening a fresh browser for manual login.
+2026-05-30 18:10:28,536 INFO Processing first company only: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:10:32,187 INFO Company name pasted: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:10:42,827 INFO Go button clicked for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:10:54,941 INFO Mobile number page opened for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:10:54,942 INFO Current phone-page URL: https://www.ecmpcb.in/cms?search_by_name=ARTUR+SCHADE+STEEL+PRODUCTS+INDIA+PVT+LTD&month=&year=&date_type=application_date&start_date=&end_date=&granting_authority=&granting_office=&verification_code=D4F4
+2026-05-30 18:11:10,925 INFO Mobile number filled for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:11:11,796 INFO Get OTP clicked for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:11:11,803 INFO OTP field became visible for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:11:12,376 INFO Single-company MPCB flow finished
+2026-05-30 18:11:23,308 INFO Single-company MPCB flow started
+2026-05-30 18:11:23,600 INFO Loaded 200 companies from Excel
+2026-05-30 18:11:23,938 WARNING Could not connect to Chrome at http://127.0.0.1:9222 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+). Falling back to Playwright launch.
+2026-05-30 18:11:24,401 INFO No auth state found. Opening a fresh browser for manual login.
+2026-05-30 18:11:36,632 INFO Processing first company only: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:11:39,994 INFO Company name pasted: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:17:35,778 INFO Single-company MPCB flow started
+2026-05-30 18:17:36,116 INFO Loaded 200 companies from Excel
+2026-05-30 18:17:36,494 WARNING Could not connect to Chrome at http://127.0.0.1:9222 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+). Falling back to Playwright launch.
+2026-05-30 18:17:37,054 INFO No auth state found. Opening a fresh browser for manual login.
+2026-05-30 18:17:46,814 INFO Processing first company only: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:17:51,345 INFO Company name pasted: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:18:02,190 INFO Go button clicked for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:18:06,283 INFO Mobile number page opened for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:18:06,285 INFO Current phone-page URL: https://www.ecmpcb.in/cms?search_by_name=ARTUR+SCHADE+STEEL+PRODUCTS+INDIA+PVT+LTD&month=&year=&date_type=application_date&start_date=&end_date=&granting_authority=&granting_office=&verification_code=3C57
+2026-05-30 18:18:19,876 WARNING Could not fill mobile number for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:18:19,900 WARNING Could not click Get OTP for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:18:20,393 INFO Single-company MPCB flow finished
+2026-05-30 18:18:42,777 INFO Single-company MPCB flow started
+2026-05-30 18:18:43,098 INFO Loaded 200 companies from Excel
+2026-05-30 18:18:43,596 WARNING Could not connect to Chrome at http://127.0.0.1:9222 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+). Falling back to Playwright launch.
+2026-05-30 18:18:43,848 INFO No auth state found. Opening a fresh browser for manual login.
+2026-05-30 18:18:47,080 INFO Processing first company only: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:18:50,288 INFO Company name pasted: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:19:01,393 INFO Go button clicked for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:19:04,662 INFO Mobile number page opened for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:19:04,663 INFO Current phone-page URL: https://www.ecmpcb.in/cms?search_by_name=ARTUR+SCHADE+STEEL+PRODUCTS+INDIA+PVT+LTD&month=&year=&date_type=application_date&start_date=&end_date=&granting_authority=&granting_office=&verification_code=51C7
+2026-05-30 18:19:54,769 WARNING Could not fill mobile number for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:20:24,839 WARNING Could not click Get OTP for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:20:25,845 INFO Single-company MPCB flow finished
+2026-05-30 18:25:15,531 INFO Single-company MPCB flow started
+2026-05-30 18:25:16,100 INFO Loaded 200 companies from Excel
+2026-05-30 18:25:16,639 WARNING Could not connect to Chrome at http://127.0.0.1:9222 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+). Falling back to Playwright launch.
+2026-05-30 18:25:17,928 INFO No auth state found. Opening a fresh browser for manual login.
+2026-05-30 18:25:37,961 INFO Processing first company only: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:25:41,540 INFO Company name pasted: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:25:58,129 INFO Go button clicked for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:26:02,696 INFO Mobile number page opened for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:26:02,697 INFO Current phone-page URL: https://www.ecmpcb.in/cms?search_by_name=ARTUR+SCHADE+STEEL+PRODUCTS+INDIA+PVT+LTD&month=&year=&date_type=application_date&start_date=&end_date=&granting_authority=&granting_office=&verification_code=6A49
+2026-05-30 18:26:20,025 INFO Phone field value after fill attempt: 9920817917
+2026-05-30 18:26:20,444 INFO Mobile number filled for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:26:21,313 INFO Get OTP clicked for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:26:21,321 INFO OTP field became visible for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:26:21,866 INFO Single-company MPCB flow finished
+2026-05-30 18:29:31,235 INFO Single-company MPCB flow started
+2026-05-30 18:29:31,593 INFO Loaded 200 companies from Excel
+2026-05-30 18:29:31,963 WARNING Could not connect to Chrome at http://127.0.0.1:9222 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+). Falling back to Playwright launch.
+2026-05-30 18:29:33,039 INFO No auth state found. Opening a fresh browser for manual login.
+2026-05-30 18:29:37,658 INFO Processing first company only: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:29:41,016 INFO Company name pasted: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:29:52,567 INFO Go button clicked for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:29:52,694 INFO Refreshing results page before PDF click: https://www.ecmpcb.in/cms?search_by_name=ARTUR+SCHADE+STEEL+PRODUCTS+INDIA+PVT+LTD&month=&year=&date_type=application_date&start_date=&end_date=&granting_authority=&granting_office=&verification_code=F600
+2026-05-30 18:29:58,158 INFO Mobile number page opened for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:29:58,158 INFO Current phone-page URL: https://www.ecmpcb.in/cms?search_by_name=ARTUR+SCHADE+STEEL+PRODUCTS+INDIA+PVT+LTD&month=&year=&date_type=application_date&start_date=&end_date=&granting_authority=&granting_office=&verification_code=F600
+2026-05-30 18:30:08,380 INFO Phone field value after fill attempt: 9920817917
+2026-05-30 18:30:08,784 INFO Mobile number filled for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:30:09,644 INFO Get OTP clicked for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:30:09,655 INFO OTP field became visible for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:30:10,232 INFO Single-company MPCB flow finished
+2026-05-30 18:32:43,642 INFO Single-company MPCB flow started
+2026-05-30 18:32:44,002 INFO Loaded 200 companies from Excel
+2026-05-30 18:32:44,512 WARNING Could not connect to Chrome at http://127.0.0.1:9222 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+). Falling back to Playwright launch.
+2026-05-30 18:32:45,443 INFO No auth state found. Opening a fresh browser for manual login.
+2026-05-30 18:32:49,854 INFO Processing first company only: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:32:53,154 INFO Company name pasted: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:33:03,467 INFO Go button clicked for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:33:03,612 INFO Refreshing results page before PDF click: https://www.ecmpcb.in/cms?search_by_name=ARTUR+SCHADE+STEEL+PRODUCTS+INDIA+PVT+LTD&month=&year=&date_type=application_date&start_date=&end_date=&granting_authority=&granting_office=&verification_code=6FCF
+2026-05-30 18:33:09,471 INFO Mobile number page opened for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:33:09,472 INFO Current phone-page URL: https://www.ecmpcb.in/cms?search_by_name=ARTUR+SCHADE+STEEL+PRODUCTS+INDIA+PVT+LTD&month=&year=&date_type=application_date&start_date=&end_date=&granting_authority=&granting_office=&verification_code=6FCF
+2026-05-30 18:33:24,352 INFO Phone field value after fill attempt: 9920817917
+2026-05-30 18:33:24,761 INFO Mobile number filled for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 18:33:25,604 INFO Get OTP clicked for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 19:09:34,251 INFO Single-company MPCB flow started
+2026-05-30 19:09:34,721 INFO Loaded 200 companies from Excel
+2026-05-30 19:09:35,094 ERROR Could not connect to Chrome at http://127.0.0.1:9222 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+). Start Chrome with remote debugging before running this script.
+2026-05-30 19:09:51,371 INFO Single-company MPCB flow started
+2026-05-30 19:09:51,598 INFO Loaded 200 companies from Excel
+2026-05-30 19:09:51,972 ERROR Could not connect to Chrome at http://127.0.0.1:9222 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+). Start Chrome with remote debugging before running this script.
+2026-05-30 19:10:31,812 INFO Single-company MPCB flow started
+2026-05-30 19:10:31,995 INFO Loaded 200 companies from Excel
+2026-05-30 19:10:32,321 ERROR Could not connect to Chrome at http://127.0.0.1:9222 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+). Start Chrome with remote debugging before running this script.
+2026-05-30 19:11:21,780 INFO Single-company MPCB flow started
+2026-05-30 19:11:22,139 INFO Loaded 200 companies from Excel
+2026-05-30 19:11:22,608 INFO Connected to Chrome debugging browser at http://127.0.0.1:9222
+2026-05-30 19:11:26,903 INFO Processing first company only: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 19:11:31,076 INFO Company name pasted: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 19:11:43,535 INFO Go button clicked for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 19:11:43,716 INFO Refreshing results page before PDF click: https://www.ecmpcb.in/cms?search_by_name=ARTUR+SCHADE+STEEL+PRODUCTS+INDIA+PVT+LTD&month=&year=&date_type=application_date&start_date=&end_date=&granting_authority=&granting_office=&verification_code=4C94
+2026-05-30 19:11:50,574 INFO Mobile number page opened for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 19:11:50,575 INFO Current phone-page URL: https://www.ecmpcb.in/cms?search_by_name=ARTUR+SCHADE+STEEL+PRODUCTS+INDIA+PVT+LTD&month=&year=&date_type=application_date&start_date=&end_date=&granting_authority=&granting_office=&verification_code=4C94
+2026-05-30 19:11:50,933 INFO Phone field value after fill attempt: 9920817917
+2026-05-30 19:11:51,343 INFO Mobile number filled for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 19:11:52,198 INFO Get OTP clicked for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 19:16:16,571 INFO Single-company MPCB flow started
+2026-05-30 19:16:17,004 INFO Loaded 200 companies from Excel
+2026-05-30 19:16:17,572 INFO Connected to Chrome debugging browser at http://127.0.0.1:9222
+2026-05-30 19:16:20,404 INFO Processing first company only: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 19:16:23,813 INFO Company name pasted: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 19:16:37,394 INFO Go button clicked for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 19:16:37,520 INFO Refreshing results page before PDF click: https://www.ecmpcb.in/cms?search_by_name=ARTUR+SCHADE+STEEL+PRODUCTS+INDIA+PVT+LTD&month=&year=&date_type=application_date&start_date=&end_date=&granting_authority=&granting_office=&verification_code=486B
+2026-05-30 19:16:42,954 INFO Mobile number page opened for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 19:16:42,955 INFO Current phone-page URL: https://www.ecmpcb.in/cms?search_by_name=ARTUR+SCHADE+STEEL+PRODUCTS+INDIA+PVT+LTD&month=&year=&date_type=application_date&start_date=&end_date=&granting_authority=&granting_office=&verification_code=486B
+2026-05-30 19:16:43,306 INFO Phone field value after fill attempt: 9920817917
+2026-05-30 19:16:43,721 INFO Mobile number filled for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 19:16:44,592 INFO Get OTP clicked for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 19:22:45,807 INFO Single-company MPCB flow started
+2026-05-30 19:22:46,267 INFO Loaded 200 companies from Excel
+2026-05-30 19:22:46,806 INFO Connected to Chrome debugging browser at http://127.0.0.1:9222
+2026-05-30 19:22:50,433 INFO Processing first company only: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 19:22:57,605 INFO Company name pasted: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 19:23:06,946 INFO Go button clicked for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 19:23:07,040 INFO Refreshing results page before PDF click: https://www.ecmpcb.in/cms?search_by_name=ARTUR+SCHADE+STEEL+PRODUCTS+INDIA+PVT+LTD&month=&year=&date_type=application_date&start_date=&end_date=&granting_authority=&granting_office=&verification_code=DB1E
+2026-05-30 19:23:14,886 INFO Mobile number page opened for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 19:23:14,886 INFO Current phone-page URL: https://www.ecmpcb.in/cms?search_by_name=ARTUR+SCHADE+STEEL+PRODUCTS+INDIA+PVT+LTD&month=&year=&date_type=application_date&start_date=&end_date=&granting_authority=&granting_office=&verification_code=DB1E
+2026-05-30 19:23:15,190 INFO Phone field value after fill attempt: 9920817917
+2026-05-30 19:23:15,609 INFO Mobile number filled for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 19:23:16,466 INFO Get OTP clicked for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 19:26:16,939 WARNING OTP timeout for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 19:26:37,037 INFO Single-company MPCB flow started
+2026-05-30 19:26:37,403 INFO Loaded 200 companies from Excel
+2026-05-30 19:26:37,842 INFO Connected to Chrome debugging browser at http://127.0.0.1:9222
+2026-05-30 19:26:40,493 INFO Processing first company only: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 19:26:44,031 INFO Company name pasted: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 19:26:55,748 INFO Go button clicked for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 19:26:55,866 INFO Refreshing results page before PDF click: https://www.ecmpcb.in/cms?search_by_name=ARTUR+SCHADE+STEEL+PRODUCTS+INDIA+PVT+LTD&month=&year=&date_type=application_date&start_date=&end_date=&granting_authority=&granting_office=&verification_code=BD9C
+2026-05-30 19:27:01,277 INFO Mobile number page opened for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 19:27:01,278 INFO Current phone-page URL: https://www.ecmpcb.in/cms?search_by_name=ARTUR+SCHADE+STEEL+PRODUCTS+INDIA+PVT+LTD&month=&year=&date_type=application_date&start_date=&end_date=&granting_authority=&granting_office=&verification_code=BD9C
+2026-05-30 19:27:01,649 INFO Phone field value after fill attempt: 9920817917
+2026-05-30 19:27:02,062 INFO Mobile number filled for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 19:27:02,963 INFO Get OTP clicked for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 19:30:22,650 INFO Single-company MPCB flow started
+2026-05-30 19:30:22,911 INFO Loaded 200 companies from Excel
+2026-05-30 19:30:23,640 INFO Connected to Chrome debugging browser at http://127.0.0.1:9222
+2026-05-30 19:30:26,816 INFO Processing first company only: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 19:30:30,216 INFO Company name pasted: ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 19:30:41,315 INFO Go button clicked for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 19:30:41,417 INFO Refreshing results page before PDF click: https://www.ecmpcb.in/cms?search_by_name=ARTUR+SCHADE+STEEL+PRODUCTS+INDIA+PVT+LTD&month=&year=&date_type=application_date&start_date=&end_date=&granting_authority=&granting_office=&verification_code=C568
+2026-05-30 19:30:46,907 INFO Mobile number page opened for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 19:30:46,907 INFO Current phone-page URL: https://www.ecmpcb.in/cms?search_by_name=ARTUR+SCHADE+STEEL+PRODUCTS+INDIA+PVT+LTD&month=&year=&date_type=application_date&start_date=&end_date=&granting_authority=&granting_office=&verification_code=C568
+2026-05-30 19:30:47,184 INFO Phone field value after fill attempt: 9920817917
+2026-05-30 19:30:47,590 INFO Mobile number filled for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 19:30:48,436 INFO Get OTP clicked for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
+2026-05-30 19:33:50,633 WARNING OTP timeout for ARTUR SCHADE STEEL PRODUCTS INDIA PVT LTD
